@@ -35,7 +35,7 @@ function Home(props:HomeProps){
             clearInterval(timer)
             setTimer(null)
         }
-        setTempo(number.toFixed(2))
+        setTempo(number.toFixed(1))
         setNumber(props.numero)
         setNameBottom("Vai")
         console.log(tempo)
